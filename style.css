@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#output {
+    position: absolute;
+    left: 0.5%;
+    top: 4%;
+}
+
+#lengthInput {
+    width: 14%;
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+    #output {
+        position: absolute;
+        top: 2%;
+        width: 10px;
+        height: 10px;
+    }
+
+    #lengthInput {
+        width: 100px;
+    }
+}
