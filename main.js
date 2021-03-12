@@ -29,11 +29,13 @@ function passwordGenerator(len) {
 
     if (length <= 7) {
         output.innerHTML = 'Too short! The minimum is 8.'
+        output.style.color = 'red';
         return;
     }
 
     if (length >= 129) {
         output.innerHTML = 'Too long! The maximum is 128.'
+        output.style.color = 'red';
         return;
     }
 
