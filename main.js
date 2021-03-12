@@ -40,9 +40,9 @@ function passwordGenerator(len) {
     }
 
     while (password.length < length) {
-        entity1 = Math.ceil(letters.length * Math.random() * Math.random());
-        entity2 = Math.ceil(numbers.length * Math.random() * Math.random());
-        entity3 = Math.ceil(punctuation.length * Math.random() * Math.random());
+        entity1 = Math.ceil(letters.length * Math.random());
+        entity2 = Math.ceil(numbers.length * Math.random());
+        entity3 = Math.ceil(punctuation.length * Math.random());
 
         hold = letters.charAt(entity1);
         hold = (password.length % 2 === 0) ? (hold.toUpperCase()) : (hold);
@@ -62,5 +62,3 @@ function passwordGenerator(len) {
 
     return password.substr(0, len);
 }
-
-
