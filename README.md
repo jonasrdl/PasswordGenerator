@@ -4,4 +4,4 @@ Its just a simple "fun" project. It may not be used for serious things, but the 
 
 Simply enter the length (between 8 and 128) and let the generator generate your password.
 
-Live Demo: https://passwordgenerator.jonasriedel.com
+Live Demo: http://passwordgenerator.jonasriedel.com
